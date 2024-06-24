@@ -7,7 +7,7 @@ from datetime import datetime, time
 import pytz
 
 TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
-CHANNEL_ID = 1076166922841899119
+CHANNEL_ID = '1076166922841899122'
 
 client = discord.Client()
 timezone = pytz.timezone('Europe/London')
