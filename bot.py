@@ -57,7 +57,7 @@ async def send_daily_hadith():
         now = datetime.now(timezone)
         
         # Check if it's 10 PM in the specified timezone
-        if now.time() == time(22, 0):  # 22:00 is 10 PM
+        if now.time() == time(15, 45):  # 22:00 is 10 PM
             # Get a random Hadith
             hadith = get_random_hadith()
             
